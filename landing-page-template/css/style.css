@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Domine|Montserrat:400,600,700,800&display=swap');
+
+.body{
+    font-family: 'Domine', serif;
+
+}
+
+/* navbar */
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    background: rgb(255, 255, 255)!important;
+  
+  }
+  
+  .navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #6a2c70;
+  }
+  
+  .navbar .container .nav-item .nav-link {
+    color: #b83b5e !important;
+    padding-top: .7rem;
+  }
+
+  .navbar .container .navbar-toggler .navbar-toggler-icon{
+    color: #b83b5e !important;
+  }
+
+
+  /* end of navbar */
+
+  /* Banner */
+
+.banner{
+    Padding: 180px 60px 60px 60px;
+    overflow: hidden;
+}
+
+.banner-caption{
+    padding-left: 20px;
+    width: 80%;
+}
+
+.banner .row .col-md-6 .banner-caption h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #6a2c70;
+}
+
+.banner .banner-caption h4{
+    color: #b83b5e;
+}
+
+
+
+.img-banner{
+    width: 500px;
+}
+
+  /* end of banner */
+
+  /* buttons */
+.btn-purple{
+    font-family: 'Montserrat', sans-serif;
+    border-width: medium;
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: .4rem 1rem ;
+    margin: .8rem;
+    color: white;
+    background-color: #6a2c70;
+    border-color: #6a2c70;
+}
+
+.btn-purple:hover{
+    background-color: #4d2052;
+    border-color: #4d2052;
+    color: white;
+}
+
+.btn-yellow{
+    font-family: 'Montserrat', sans-serif;
+    border-width: medium;
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: .4rem 1rem ;
+    margin: .8rem;
+    color: black;
+    background-color: #f9ed69;
+    border-color: #f9ed69;
+}
+
+.btn-yellow:hover{
+    background-color: #c9bf55;
+    border-color: #c9bf55;
+    color: black;
+}
+
+.btn-orange{
+    font-family: 'Montserrat', sans-serif;
+    border-width: medium;
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: .4rem 1rem ;
+    margin: .8rem;
+    color: white;
+    background-color: #f08a5d;
+    border-color: #f08a5d;
+}
+
+.btn-orange:hover{
+    background-color: #c7734f;
+    border-color: #c7734f;
+    color: white;
+}
+  /* end of buttons */
+
+  h1{
+      font-family:'Montserrat', sans-serif;
+      font-weight: 700;
+  }
+
+  /* margins and paddings */
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mt-80{
+    margin-top: 80px;
+}
+
+.wrap{
+    padding: 50px 100px;
+}
+
+.wrap-tight{
+    padding: 50px 200px;
+}
+
+    /* end of margins and paddings */
+
+
+/* img */
+
+.img-paragraph{
+      width: 80%;
+}
+
+.img-kecil{
+    width: 60%;
+
+}
+
+.img-card-md{
+    width: 200px;
+}
+
+.img-card-sm{
+    width: 150px;
+}
+
+/* end of img */
+
+  /* paragraph */
+
+.bold-purple{
+    font-weight: bold;
+    color: #6a2c70;
+}
+
+/* end of paragraph */
+
+/* card */
+.card{
+    border-style: none;
+    margin-top: -200px;
+}
+
+.card-transparent{
+    padding: 10px 20px;
+}
+
+.card-white{
+    height: 450px;
+    background-color: white;
+    padding: 30px;
+    color: black;
+    border-radius: 20px;
+
+}
+
+.bg-yellow{
+    background-color: #f9ed69;
+    padding: 50px;
+}
+
+.bg-orange{
+    background-color: #f08a5d;
+    padding: 50px;
+}
+
+.bg-purple{
+    background-color: #6a2c70 ;
+    padding: 50px;
+    position: relative;
+}
+
+.card-yellow{
+    background-color: #f9ed69;
+    border-radius: 20px;
+    padding: 30px;
+}
+.card-orange{
+    background-color: #f08a5d;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.card-light-purple{
+    background-color: #b83b5e;
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+}
+
+.card-purple{
+    background-color: #6a2c70;
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+}
+
+.img-card{
+    width: 100%;
+}
+
+/* end of card */
+
+.catalogue{
+    padding: 0px 100px;
+    color: white;
+}
+
+/* end of catalogue */
+
+/* our team */
+
+.img-profile{
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* end of our team */
+
+footer{
+    color: white;
+    background-color: #6a2c70;
+    padding: 20px;
+    text-align: center;
+}
